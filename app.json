@@ -22,6 +22,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "The app needs access to yout camera in oder to take photos of yout favorite places."
+        }
+      ]
+    ]
   }
 }
